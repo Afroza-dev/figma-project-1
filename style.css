@@ -1,0 +1,67 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--primary: #b88e2f;
+    --secondary: #000;
+    --font-family: "Poppins", sans-serif;
+}
+body{
+    font-family: var(--font-family);
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+list-style: none;
+}
+.container{
+    max-width: 1240px
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* COMMON CSS END */
+/* Nav bar start */
+nav .logo{ 
+    width: 20%;
+    align-items: center;
+}
+nav .menu{
+    width: 50%;
+}
+nav .menu ul{
+    justify-content: center;
+}
+nav .row{
+    align-items: center;
+}
+nav .menu ul li a{
+    display: block;
+    padding: 38px 37.5px;
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 500;
+}
+nav .menu li a:hover{
+    color:var(--primary);
+
+}
+nav .quicklink{
+    width: 30%;
+    text-align: right;
+    }
+nav .quicklink a{
+    color: black;
+    margin: 0px 22.5px;
+    font-size: 23.33px;
+}
+nav .quicklink a:hover{
+    color:var(--primary);
+}
+/* Nav bar end */
